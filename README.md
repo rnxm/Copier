@@ -1,3 +1,6 @@
+# THE BOT HAS REACHED 100 SERVERS
+currently you can't invite it, i'm sorting things out right now. thanks discord for limiting the amount of servers for no reason
+
 # Copier [**__`INVITE`__**](https://discord.com/oauth2/authorize?client_id=1281304101715710022)
 
 A bot that lets you copy things, just like how you can copy channels in Discord.
