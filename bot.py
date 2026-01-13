@@ -169,7 +169,7 @@ async def category_clone(ctx: commands.Context, roles: commands.Greedy[discord.R
             discord.ForumChannel: "📚"
         }
         
-        cloned = await channel.clone(reason=f"Copy {parent.name} / {emojis[type(channel)]} {channel.name} | {ctx.author.id}")
+        cloned = await channel.clone(reason=f"Copy {parent.name} / {emojis[type(channel)]} {channel.name} | {ctx.author.id}", category=category)
         await msg.edit(content=f"Created channel {cloned.mention}...")
         await cloned.move(category=category, end=True, sync_permissions=True)
         await msg.edit(content=f"Moved channel {cloned.mention}...")
